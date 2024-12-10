@@ -1,0 +1,114 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(CursedTimerUlil-Aznm.ttf);
+  }
+
+body {
+    margin: auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+.container {
+display: flex;
+justify-content: space-around;
+background-color: #1B244A;
+width: 650px;
+height: 350px;  
+border-radius: 10px;
+border: 8px double white;
+
+}
+
+.home,.guest,{
+    display:flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    
+}
+
+
+.score1,.score2{
+width:130px;
+height:130px;
+background-color: black;
+margin-top:20px;
+margin-bottom:40px;
+border-radius: 10px;
+}
+
+
+.clock{
+    color: yellowgreen;
+}
+
+.reset{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    padding: 5px 5px 5px 5px;
+    background-color: #1B244A;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h3{
+font-size: 25px;
+font-family: Verdana, Geneva, Tahoma, sans-serif ;
+font-style:bold;
+color: white;
+}
+
+.time{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color:white;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.clock{
+    font-family: "myFirstFont";
+    font-size: 25px;
+}
+    
+
+.numbers{
+    font-family: "myFirstFont";
+    color:red;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 30px 8px;
+    text-align: center;
+}
+
+.addscore1, .addscore2 { 
+    font-family: "myFirstFont";
+    padding: 7px 7px 7px 7px;
+    background-color: #1B244A;
+    color: white;
+    border-radius: 5px;
+    border-color: aliceblue;
+
+   
+}

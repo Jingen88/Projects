@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+    
+    </head>
+    <body>
+     <div class="container">
+
+        <div class="home">
+
+            <h3>HOME</h3>
+
+            <div class="score1">
+                <p id="home-el" class="numbers">0</p>
+            </div>
+
+            <div class="addscore1">
+                <button class="addscore1" onclick="add1()">+1</button>
+                <button class="addscore1" onclick="add2()">+2</button>
+                <button class="addscore1" onclick="add3()">+3</button>
+            </div>
+
+        </div>
+<div class="time">
+    <p>TIME</p>
+    <div id="clock-el" class="clock"><p>20:00</p></div>
+    <button id="reset-el" class="reset" onclick="reset()">RESET</button>
+</div>
+
+        <div class="guest">
+                <h3>GUEST</h3>
+            <div class="score2">
+                <p id="guest-el" class="numbers">0</p>
+            </div>
+            <div class="addscore2">
+                    <button class="addscore2" onclick="add1a()">+1</button>
+                    <button class="addscore2" onclick="add2a()">+2</button>
+                    <button class="addscore2" onclick="add3a()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="score.js"></script>
+    </body>
+    </html>
